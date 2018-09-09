@@ -11,7 +11,7 @@ import static org.springframework.boot.SpringApplication.*;
 public class CientraProjectsApplication {
 
 	public static void main(String[] args) {
-		run(CientraProjectsApplication.class,args);
+		SpringApplication.run(CientraProjectsApplication.class,args);
 
 		/*SpringApplication.run(CientraProjectsApplication.class, args);*/
 	}
